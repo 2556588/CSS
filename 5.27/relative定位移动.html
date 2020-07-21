@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>relative 定位移动</title>
+	<style >
+		.top {
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+			position: relative;			/*以自己左上角为移动基准，移动后原来位置还在*/
+			top:100px;
+			left: 100px;               /* 用时要加边偏移才能移动*/
+
+			
+		}
+		.bottom {
+			width: 200px;
+			height: 200px;
+			background-color: skyblue;
+		}
+	</style>
+</head>
+<body>
+		<div class="top"></div>
+		<div class="bottom"></div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>字体图标的使用</title>
+	<style >
+	@font-face {    /*字体申明*/
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?l9cnvs');
+  src:  url('fonts/icomoon.eot?l9cnvs#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?l9cnvs') format('truetype'),
+    url('fonts/icomoon.woff?l9cnvs') format('woff'),
+    url('fonts/icomoon.svg?l9cnvs#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+	div,p,span {
+		 font-family: 'icomoon';
+		font-size: 30px;
+
+	}
+	p:after {   
+		content: "\e9e9";
+	}
+	span:before {   
+		content: "\eabe";
+
+	}
+		
+	</style>
+
+</head>
+<body>
+	<div></div>
+	<p></p>
+	<span></span>
+
+
+</body>
+</html>

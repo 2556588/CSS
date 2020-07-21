@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>伸缩布局flew</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.big {
+			width: 1000px;
+			height: 200px;
+			border:1px solid red;
+			display: flex;   /*排序*/
+			/*justify-content: flex-start;*/  /*开始位置排序*/
+			/*justify-content: flex-end;*/   /*结束位置排序*/
+			/*justify-content: center;*/   /*中间位置排序*/
+			/*justify-content: space-between*/;   /*左右对齐 位置排序*/
+			justify-content: space-around; 
+
+
+
+		}
+		.small1 {
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+		}
+		.small2 {
+			width: 200px;
+			height: 200px;
+			background-color:blue;
+		}
+		.small3 {
+			width: 200px;
+			height: 200px;
+			background-color: darkgreen;
+		}
+		.small4{
+			width: 200px;
+			height: 200px;
+			background-color: #f10215;
+		}
+	</style>
+</head>
+<body>
+	<div class="big">
+		<div class="small1"></div>
+		<div class="small2"></div>
+		<div class="small3"></div>
+		<div class="small4"></div>
+		
+	</div>
+
+</body>
+</html>

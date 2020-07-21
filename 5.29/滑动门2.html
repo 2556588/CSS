@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>滑动门2</title>
+	<style>
+	body {
+		background: url(../images/beijing.jpg) repeat-x;
+	}
+	li {
+		list-style: none;
+		float: left;
+		margin: 0 10px;
+	}
+	.nav li a {
+		height: 33px;
+		background:url(../images/wx.png) no-repeat;
+		display: inline-block;
+		line-height: 33px;
+		padding-left: 15px;
+		text-decoration: none;
+
+	}
+	.nav span {
+		background:url(../images/wx.png) no-repeat right;
+		line-height: 33px;
+		display: inline-block;
+		padding-right: 15px;
+
+	}
+	.nav a:hover {
+		background-image: url(../images/wxao.png);
+		
+	}
+	.nav a:hover span {
+		background-image: url(../images/wxao.png);    /*图片层叠*/
+
+	}
+	
+	</style>
+</head>
+<body>
+	<ul class="nav">
+	<li>
+		<a href="#">
+			<span>首页</span>
+		</a>
+	</li>
+	<li >
+		<a href="#">
+			<span>公众平台</span>
+		</a>
+	</li>
+	<li >
+		<a href="#">
+			<span>新闻列表</span>
+		</a>
+	</li>
+	</ul>
+</body>
+</html>

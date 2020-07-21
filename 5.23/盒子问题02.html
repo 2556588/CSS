@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>盒子问题</title>
+	<style >
+		.big {
+			width: 400px;
+			height: 300px;
+			background-color: blue;
+			/*border:1px solid red;  1.+margin-top 会撑开盒子大小*/
+			/*padding-top: 50px       /*2.父盒子加个内边距*/
+			overflow: hidden;
+
+
+		}
+		.small {
+			width: 100px;
+			height:100px;
+			background-color:  red;
+			    /*大盒子也会跟着下去 */ 
+			    /*margin: 0 auto;*/
+			    margin-top: 100px;
+
+					}
+	</style>
+</head>
+<body>
+	<h3>子盒子的移动</h3>
+	<div class="big">
+		<div class="small"></div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript function调用函数的简单应用</title>
+	  <script> 
+		function sys()          
+		{
+
+			alert("这是function调用函数的方法");
+		}
+		
+	
+	</script>
+</head>
+<body>
+		<button onclick="sys()">调用</button>
+		<!-- 有返回值的调用 -->
+		<p id="llk"></p>
+		<script >
+			function ok(x,y)
+			{
+				return x*y;
+			}
+			document.getElementById("llk").innerHTML=ok(5,5);
+		</script>
+
+</body>
+</html>

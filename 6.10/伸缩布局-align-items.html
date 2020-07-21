@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.big {
+			width: 1000px;
+			height: 800px;
+			border:1px solid red;
+			margin: 20 auto;
+			display: flex;
+			justify-content: space-around;
+			/*align-items: center;*/  /*多个侧轴对齐*/
+		}
+		.left {
+			width: 250px;
+			height: 300px;
+			background-color: #ccc;
+		}
+		.center {
+			width: 250px;
+			height: 300px;
+			background-color: purple;
+			align-self: center;  /*单个侧轴对齐*/
+		}
+		.right {
+			width: 250px;
+			height: 300px;
+			background-color: skyblue;
+		}	
+	</style>
+</head>
+<body>
+	<div class="big">
+	<div class="left"></div>
+	<div class="center"></div>
+	<div class="right"></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>display 隐藏</title>
+	<style >
+		a {
+			width: 1260px;
+			height: 470px;
+			margin: 100px auto;
+			position: relative;
+			display: block;
+		}
+		div {
+			width: 100%;
+			height: 100%;
+			background-color: #ccc;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background:rgba(0,0,0,0.3) url(../images/zanting.gif) no-repeat  center;
+			display: none;    /*隐藏background元素*/
+
+		}
+		a:hover .jingguo {
+			display: block;    /*显示background元素*/
+		}
+
+	</style>
+</head>
+<body>
+	<a href="#"><img src="../images/bkground.jpg">
+		<div class="jingguo"></div>
+	</a>
+
+</body>
+</html>

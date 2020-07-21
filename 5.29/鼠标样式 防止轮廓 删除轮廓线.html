@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style >
+		textarea {
+			width: 200px;
+			height: 200px;
+			resize: none;    /*轮廓防止拖拽*/
+			outline: none;   /*删除轮廓线*/
+		}
+		li {
+			list-style: none;
+			width: 250px;
+			height: 25px;
+			border: 1px solid red;
+			white-space: nowrap; /*超出同行显示*/       
+			overflow: hidden;    /*超出隐藏 */
+			text-overflow: ellipsis;    /*超出部分省略号    三者缺一不可
+					}
+	</style>
+</head>
+<body>
+<!-- <li style="cursor: text; font-size:50px;" >选择</li>
+<li style="cursor: move; font-size:50px;">移动十字架</li>
+<li style="cursor: default; font-size:50px;">默认</li>
+<li style="cursor: pointer; font-size:50px;">小手</li> -->
+<li>这是一段文字这是一段文字这是这是一段文字这是一段文字这是一段文字一段文字这是一段文字这是一段文字这是一段文字这是一段文字这是一段文字</li>
+<textarea></textarea>
+</body>
+</html>

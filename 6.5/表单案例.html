@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表单案例</title>
+	<style >
+	* {
+		margin: 0;
+		padding: 0;
+	}
+		form {
+			width: 500px;
+			margin: 0 auto;
+		}
+		fieldset {
+			padding: 10px;
+		}
+		input {
+			margin: 10px 0;
+			width: 100%;
+			height: 40px;
+			font-size: 16px;
+			line-height: 40px;
+			padding-left: 5px; 
+			border:none;
+			border:1px solid #ccc;
+			border-radius: 5px;
+			box-sizing: border-box;
+
+		}
+		meter {
+			width: 100%;
+			height:40px;
+
+		}
+		button {
+			width: 100%;
+			height: 40px;
+			border-radius: 5px;
+
+		}
+		button:hover {
+			color: #fff;
+			background-color: #f10215;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>学生档案</legend>
+			<label for="username">姓名：
+			<input type="text" id="username" placeholder="请输入用户名" ></label>
+			<label for="tel">手机号码：
+			<input type="tel" id="tel" required pattern="^(\+86)?1\d{10}$">
+		</label>
+			<label for="email" >邮箱地址：
+			<input type="email" id="email" required>
+		</label>
+			<label for="text" >所属学院：
+			<input type="text" id="text" list="list" placeholder="请选择">
+			<datalist id="list">
+				<option>java</option>
+				<option>电子信息</option>
+				<option>云计算</option>
+				<option>javascript</option>
+			</datalist>
+			<label for="number" >入学成绩：
+			<input type="number" max="100" min="0" id="number" placeholder="0">
+			<label for="id" >基础水平：<br>
+			<meter id="id" max="100" min="0" value="50"></meter>
+			<label for="ij">入学日期：
+				<input type="date" id="ij">
+			<label for="ij">毕业日期：
+				<input type="date" id="ij">
+					<button>提交</button>
+			</label>
+		</fieldset>
+	</form>
+</body>
+</html>

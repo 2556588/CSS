@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>absolute  父级有无定位</title>
+	<style >
+		.big {
+			width: 250px;
+			height: 250px;
+			background-color: pink;
+			margin: 100px;
+			position: absolute;   /*父级加绝对定位，子级会以父级为定位移动*/
+
+
+		}
+		.small{
+			width: 200px;
+			height: 200px;
+			background-color: skyblue;
+			position: absolute;
+			top: 50px;
+			left: 50px;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="big"><div class="small"></div></div>
+
+</body>
+</html>

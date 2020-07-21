@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>transform实现3d的移动</title>
+	<style >
+	div {
+		width: 150px;
+		height: 150px;
+		background-color: pink;
+		transition-property: transform;
+		transition-duration: 2s;
+		margin: 30px auto;
+
+	} 
+	div:first-of-type:active {     /*3d移动*/
+		transform:translate3d(50px,50px,50px);
+	}
+	div:nth-of-type(2):active {    /*缩放*/
+		transform:scale3d(0.2,0.2,0.2);
+	}
+	div:last-of-type:hover {
+		transform:rotate3d(1,1,1,90deg);
+	}
+	</style>
+</head>
+<body>
+	<div></div>
+	<div></div>
+	<div></div>
+
+</body>
+</html>

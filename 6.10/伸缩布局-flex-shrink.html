@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>伸缩布局flew</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.big {
+			width: 700px;
+			height: 200px;
+			border:1px solid red;
+			display: flex;   
+
+
+
+
+
+		}
+		.small1 {
+			width: 200px;
+			height: 200px;
+			background-color: pink;
+			flex-shrink:1;
+
+		}
+		.small2 {
+			width: 200px;
+			height: 200px;
+			background-color:blue;
+			flex-shrink: 1;
+
+		}
+		.small3 {
+			width: 200px;
+			height: 200px;
+			background-color: darkgreen;
+			flex-shrink: 0;
+		}
+		.small4{
+			width: 200px;
+			height: 200px;
+			background-color: #f10215;
+			flex-shrink: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="big">
+		<div class="small1"></div>
+		<div class="small2"></div>
+		<div class="small3"></div>
+		<div class="small4"></div>
+		
+	</div>
+
+</body>
+</html>

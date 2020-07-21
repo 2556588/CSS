@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 500px;
+            height: 500px;
+            background: lightgray;
+        }
+        @keyframes ani1{
+            0%{
+                opacity: 0;
+            }
+           16.666%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        @keyframes ani2{
+            0%{
+                opacity: 0;
+            }
+           16.666%{
+                opacity: 0;
+            }
+            33.3333%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        @keyframes ani3{
+            0%{
+                opacity: 0;
+            }
+            33.3333%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        @keyframes ani4{
+            0%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 0;
+            }
+            66.666%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        @keyframes ani5{
+            0%{
+                opacity: 0;
+            }
+            66.666%{
+                opacity: 0;
+            }
+           83.3333%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+        @keyframes ani6{
+            0%{
+                opacity: 0;
+            }
+            83.3333%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        .img1{
+            animation: ani1 3s linear 0s infinite;
+        }
+        .img2{
+            animation: ani2 3s linear 0s infinite;
+        }
+        .img3{
+            animation: ani3 3s linear 0s infinite;
+        }
+        .img4{
+            animation: ani4 3s linear 0s infinite;
+        }
+        .img5{
+            animation: ani5 3s linear 0s infinite;
+        }
+        .img6{
+            animation: ani6 3s linear 0s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img class="img1" src="./03_m01.png" alt="">
+        <img class="img2" src="./03_m02.png" alt="">
+        <img class="img3" src="./03_m03.png" alt="">
+        <img class="img4" src="./03_m04.png" alt="">
+        <img class="img5" src="./03_m05.png" alt="">
+        <img class="img6" src="./03_m06.png" alt="">
+    </div>
+</body>
+</html>

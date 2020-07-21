@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>radius案例</title>
+	<style type="text/css">
+		.big {
+			width: 500px;
+			height: 600px;
+			border:1px solid red;
+			margin: 100px auto;
+		}
+		.top {
+			width: 250px;
+			height: 125px;
+			background-color: darkgreen;
+			margin: 20px auto;
+			border-radius: 125px 125px 0 0;
+			position: relative;
+		}
+		.top::before,.top::after {
+					content:"";
+					width: 20px;
+					height: 20px;
+					background-color: #fff;
+					border-radius: 10px;
+					position: absolute;
+					top: 60px;
+
+
+		}
+		.top:before {
+				left: 47px;
+		}
+		.top::after {
+			right: 47px;
+		}
+		.center {
+			width: 250px;
+			height: 200px;
+			background-color: darkgreen;
+			margin: 0 auto;
+			border-radius: 0 0 12px 12px;
+			position: relative;
+		}
+		.center::before,.center::after {
+			content: "";
+			width: 30px;
+			height: 150px;
+			background-color: darkgreen;
+			position: absolute;
+			top:18px;
+			border-radius: 10px;
+		}
+		.center::before {
+			left: -45px;
+		}
+		.center::after {
+			right: -45px;
+		}
+		.bottom {
+			width: 250px;
+			height: 180px;
+			/*background-color: red;*/
+			margin: 0 auto;
+			position: relative;
+
+		}
+		.bottom::before,.bottom::after {
+			content: "";
+			width: 25px;
+			height: 150px;
+			background-color: darkgreen;
+			border-radius: 0 0 10px 10px;
+			position: absolute;
+			top: 0;
+
+		}
+		.bottom::before {
+			left: 34px;
+		}
+		.bottom::after {
+			right: 34px;
+		}
+	</style>
+</head>
+<body>
+	<div class="big">
+		<div class="top"></div>
+		<div class="center"></div>
+		<div class="bottom"></div>
+	</div>
+
+</body>
+</html>

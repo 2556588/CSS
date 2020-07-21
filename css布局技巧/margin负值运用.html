@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul li {
+        width: 200px;
+        height: 300px;
+        border: 1px solid #eee;
+        float: left;
+        list-style: none;
+        /*相对定位可以压住标准流*/
+        position: relative;
+        margin-left: -1px;
+        /**/
+    }
+
+    li:hover {
+        border: 1px solid #ccc;
+        z-index: 999;
+        /*提高权重*/
+    }
+</style>
+
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</body>
+
+</html>

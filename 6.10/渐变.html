@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>线性渐变linear-gradient 径向渐变radial-gradient</title>
+	<style type="text/css">
+		.xianxing {
+			width: 300px;
+			height: 300px;				/*方向 开始颜色 位置*/ 
+			background:linear-gradient(to top,pink 0%,blue 100%);
+			display: inline-block;
+			margin-right: 30px;
+		}
+		.jingxiang {
+			width: 300px;
+			height: 200px;				/*形状 大小 坐标 颜色*/
+			background: radial-gradient(circle closest-side  at 50px 50px, red ,blue);
+			display: inline-block;
+			margin-right: 30px;
+		}
+		div:nth-of-type(3) {
+			width: 300px;
+			height: 300px;
+			display: inline-block;
+			background: repeating-radial-gradient(circle closest-side ,#fff 0%,#fff 20%,#000 20%,#000 40%);
+			margin-right: 30px;
+		}
+		div:last-of-type {
+			width: 300px;
+			height: 300px;
+			background: repeating-linear-gradient(45deg, #000 0%,#000 10%,#fff 10%,#fff 20%);
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+	<div class="xianxing"></div>
+	<div class="jingxiang"></div>
+	<div></div>
+	<div></div>
+
+</body>
+</html>

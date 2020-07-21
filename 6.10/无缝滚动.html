@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>无缝滚动</title>
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+		div {
+			width:972px;
+			height: 213px;
+			overflow: hidden;  /*隐藏*/
+			margin: 100px auto;
+			}
+
+		div>ul {
+			width: 200%;  /*宽度不够改为200%*/
+			list-style: none;
+			animation-name: sys; /*动画名称*/
+			animation-duration: 2s; /*时长*/
+			animation-delay: 2s;  /*延迟*/
+			animation-iteration-count:infinite;  /*循环次数*/
+			animation-timing-function: linear;  /*匀速*/
+
+		}
+		div:hover ul {
+			cursor: pointer;
+			animation-play-state:paused;  /*暂停*/
+		}
+		div>ul>li {
+			width: 324px;
+			float: left;
+
+		}
+		div>ul>li>img {
+			width: 100%;			
+		}
+		@keyframes sys{
+			0%{
+				transform:translate(0,0);
+			}
+			100%{
+				transform:translate(-972px,0);
+			}
+			
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<ul>
+		<li><img src="../images/6616_05.gif"></li>
+		<li><img src="../images/6616_03.gif"></li>
+		<li><img src="../images/6616_07.gif"></li>
+		<li><img src="../images/6616_05.gif"></li>
+		<li><img src="../images/6616_03.gif"></li>
+		<li><img src="../images/6616_07.gif"></li>
+		</ul>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>叠放次序 z-index</title>
+	<style >
+	div {
+		width: 200px;
+		height: 200px;
+		background-color: #ccc;
+		position: absolute;
+
+	}
+	.red {
+		background-color: red;
+		z-index: 1;   /*不用加单位，叠放次序级别高于其他，若没有加z-index则根据书写顺序最后的在最上面*/
+
+	}
+	.skyblue {
+		background-color: skyblue;
+		left: 100px;
+		top: 100px;
+	}
+	.pink {
+		left: 150px;
+		top: 150px;
+	}
+	</style>
+</head>
+<body>
+	<div>
+		<div class="red"></div>
+		<div class="skyblue"></div>
+		<div class="pink"></div>
+	</div> 
+
+</body>
+</html>

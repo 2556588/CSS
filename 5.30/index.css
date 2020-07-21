@@ -1,0 +1,268 @@
+.jd {
+	/*height: 480px;*/
+	/*background-color: pink;*/
+	position: relative;
+}
+img {
+	vertical-align: top;  /*清除图片和文字之间的缝隙*/
+}
+.jd-inner {
+	height: 480px;
+	/*background-color: skyblue;*/
+	position: relative;
+	z-index:1;   /*层叠次序优先 只有定位的才有*/
+}
+.ad {
+
+	height: 480px;
+	background: url(../images/jd/bg.png) no-repeat top center;
+	position: relative;
+	width: 100%; /*一定要写 position 会转换为行内块 根据内容多少给宽*/
+	position: absolute;   /*定位会转换为行内块*/
+	top: 0;
+}
+.ad a {
+	width: 100%;
+	height: 100%;
+	display: block;
+	
+}
+.jd-l {
+	width: 190px;
+	height: 464px;
+	background-color: #FEFEFE;
+	float: left;
+	padding-top:15px;
+	border-top:1px solid #ccc;
+}
+.jd-l li {
+	padding-left: 10px;
+	height: 25px;
+	line-height: 25px;
+	
+}
+.jd-l li a {
+	font-size: 14px;
+	color: #626262;
+}
+.jd-l li:hover {
+	background-color: #d9d9d9;
+}
+
+.jd-l li a:hover {
+	color: #f10215;
+}
+.jd-l span {
+	color: #626262;
+}
+.jd-c {
+	width: 790px;
+	height: 480px;
+	/*background-color: yellow;*/
+	float: left;
+	margin: 0 10px 0;
+}
+.jd-c-t {
+	height: 340px;
+	background-color: #ccc;
+	position: relative;
+}
+.jd-c-b {
+	height: 140px;
+	/*background-color: pink;*/
+	
+}
+.b-l {
+	float: left;
+	margin-top: 0;
+}
+.b-r {
+	float: right;
+}
+.jd-r {
+	width: 190px;
+	height: 480px;	
+	float: left;
+}
+.jd-r-t {
+	height: 95px;
+	/*background-color: #ccc;*/
+	padding: 20px 5px 0 15px;
+}
+.t-info {
+	height: 42px;
+	padding-left: 48px;
+	font-size: 12px;
+	color: #747474;
+	position: relative;
+
+}
+.t-info a{
+		font-size: 12px;
+	    color: #747474;
+
+}
+.t-profit {
+	margin-top: 14px;
+}
+.t-profit a {
+	height: 20px;
+	width: 70px;
+	color: #f10215;
+	/*display: inblock;*/
+	font-size: 12px;
+	line-height: 20px;
+	border:3px solid #f10215;
+	text-align: center;
+	
+}
+.t-profit a:hover {
+	background-color: #f10215;
+	color: #fff;
+}
+.slogo {
+	border-radius: 50%;
+	position: absolute;
+	top: -5px;
+	left: -4px;
+}
+.t-info p {
+	line-height: 20px;
+}
+.t-info a:hover {
+	color: #f10215;
+}
+.jd-r-c {
+	height: 154px;
+	/*background-color: skyblue;*/
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+
+.lef,.rig {
+	font-family: 'icomoon';
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	width: 30px;
+	height: 60px;
+	font-size: 20px;
+	/*background-color: #ccc;*/
+	text-align: center;
+	line-height: 60px;
+	background: rgba(255,255,255,0.4);
+
+}
+.lef {
+
+}
+
+.rig {
+	right: 0;
+}
+.jd-c-t ol {
+	width: 180px;
+	height: 20px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -90px;
+	background-color: #ccc;
+	border-radius: 10px;
+}
+.jd-c-t ol li {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background:rgba(255,255,255,0.4);
+	float: left;
+	margin: 4px 5px;
+
+}
+.sys:hover {
+	background-color: #f10215;
+}
+.tab-hd {
+	border-bottom: 1px solid #ccc;
+	padding: 3px 0;
+	position: relative;
+	/*margin: 4px;*/
+}
+.tab-hd a {
+	font-size: 12px;
+	color: #747474;
+	margin: 0 4px;
+}
+.cuxiao {
+	border-right: 1px solid #ccc;
+	padding-right: 10px;
+}
+.new .more {
+	position: absolute;
+	top: 6px;
+	left: 0;
+}
+.line {
+	width: 28px;
+	height: 2px;
+	background-color: #f10215;
+	position: absolute;
+	bottom: -2px;
+	left: 6px;
+}
+.tab-bd {
+	margin-top: 10px;
+}
+.tab-bd li {
+	height: 23px;
+	line-height: 23px;
+
+}
+.tab-bd li a {
+	color: #747474;
+}
+.tab-bd li a:hover {
+	color: #f10215;
+}
+.jd-r-b {
+	height: 209px;
+	/*background-color: red;*/
+	overflow: hidden;
+}
+.jd-r-b li {
+	width: 47px;
+	height: 69px;
+	/*background-color: pink;*/
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	float: left;
+
+}
+.jd-r-b ul {
+	width: 195px; /*给ul宽度使li不会往下撑*/
+}
+.jd-r-b ul li a {
+	width: 100%;
+	height:100%;
+	/*height: auto;  对自己的高度和宽度*/
+	display: block;
+}
+.jd-r-b li a i {
+	width: 24px;
+	height: 24px;
+	display: block;
+	margin: 15px auto 7px;
+	background: url(../images/jd/sprite_fs@1x.png)no-repeat;
+
+}
+.jd-r-b li a p {
+	color: #747474;
+}
+.jd-r-b li p:hover {
+	color: #c81623;
+}
+
+.jd-r-b li a p {
+	text-align: center;
+}

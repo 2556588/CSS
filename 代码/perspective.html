@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <dead>
+        <style>
+        .big {
+            width:300px;
+            height: 300px;
+            border:1px solid #ccc;
+            margin:30px auto;
+            perspective: 100px
+        }
+        .small {
+            width:100px;
+            height: 100px;
+            margin:100px;
+            background-color: #f10215;
+            transition:1s;
+            /* transform:rotateX(0); */
+            /* transform:rotateY(0); */
+            transform:translateZ(0);
+            /* translatesZ是先前移动，不能超过perspective的大小 */
+        }
+        .big:hover .small {
+            /* transform:rotateX(180deg); */
+            /* transform:rotateY(180deg); */
+            transform:translateZ(50px);
+        }
+        </style>
+
+    </dead>
+    <body>
+        <div class="big">
+            <div class="small">测试文字</div>
+        </div>
+    </body>
+</html>

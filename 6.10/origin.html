@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>origin轴心点的设定</title>
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+
+	}
+	.puke {
+		width: 132px;
+		height: 204px;
+		margin: 200px auto;
+		position: relative;
+
+		
+
+	}
+	div >img {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transition: transform 2s;
+		transform-origin: top right;   /*设置旋转轴心*/
+	}
+	.puke:hover >img:nth-of-type(1) {
+		transform:rotate(0deg);
+	}
+	.puke:hover >img:nth-of-type(2) {
+		transform:rotate(60deg);
+	}
+	.puke:hover >img:nth-of-type(3) {
+		transform:rotate(120deg);
+	}
+	.puke:hover >img:nth-of-type(4) {
+		transform:rotate(180deg);
+	}
+	.puke:hover >img:nth-of-type(5) {
+		transform:rotate(240deg);
+	}
+	.puke:hover >img:nth-of-type(6) {
+		transform:rotate(300deg);
+	}
+		
+	</style>
+	}
+</head>
+<body>
+	<div class="puke">
+		<img src="../images/pk.jpeg">
+		<img src="../images/pk.jpeg">
+		<img src="../images/pk.jpeg">
+		<img src="../images/pk.jpeg">
+		<img src="../images/pk.jpeg">
+		<img src="../images/pk.jpeg">
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* ul {
+                width:900px;
+                height: 200px;
+               margin:30px auto;
+            } 
+            ul li {
+                list-style:none;
+                display: block;
+                float:left;
+                margin:0 20px;
+
+            } */
+            /* ul li { */
+                /* width:140px; */
+                /* height: 20px; */
+                /* margin:30px 20px; */
+                /* display:block; */
+                /* padding-top:10px;  */
+                /* position: relative; */
+                /* box-sizing: border-box; */
+                
+            /* } */
+            /* ul>li>a:before{
+position: absolute;
+z-index: 1;
+left: 0px;
+bottom: 0px;
+display: inline-block;
+height: 3px;
+width: 100%;
+background-color: #ed6d00;
+content: "";
+transform: scale3d(0, 1, 1);
+transform-origin: center;
+transition: width 0.5s ease ;
+}
+ul>li:hover>a:before{
+transform: scale3d(1, 1, 1);
+color: #ed6d00;
+} */
+            /* li {
+    border-bottom: 2px solid #000;
+}
+li {
+    border-bottom: 0px solid #000;
+} */
+
+/* li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid #000;
+    transition: 0.1s  linear;
+}
+li:hover::before {
+    width: 100%;
+}
+li:hover ~ li::before {
+    left: 0;
+} */
+
+ul {
+    display: flex;
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+li {
+    list-style:none;
+    position: relative;
+    padding: 20px;
+    font-size: 24px;
+    color: #000;
+    line-height: 1;
+    transition: 0.2s all linear;
+    cursor: pointer;
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid #000;
+    transition: 0.2s all linear;
+}
+
+li:hover::before {
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition-delay: 0.1s;
+    border-bottom-color: #000;
+    z-index: -1;
+}
+
+li:hover ~ li::before {
+    left: 0;
+}
+
+
+
+
+
+             
+                /* display:block; */
+                /* width:0%;
+                height: 100%;
+                position:absolute;
+                border-top:2px solid #ccc;
+                transition:all 0.2s linear;
+
+            } */
+            /* ul li:hover::before {
+                width:100%;
+                left: 0;
+            }
+             ul li:hover ~ ul li::before {
+            left: 0;
+            }    */
+            </style>
+
+    </head>
+    <body>
+            <ul class="sys">
+
+                    <li><a href="#">不可思议的CSS</a></li>
+                  
+                    <li><a href="#">导航栏</a></li>
+                  
+                    <li><a href="#">光标小下划线跟随</a></li>
+                  
+                    <li><a href="#">PURE CSS</a></li>
+                  
+                    <li><a href="#">Nav Underline</a></li>
+                  
+                  </ul>
+    </body>
+</html>

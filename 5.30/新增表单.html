@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>新增表单</title>
+</head>
+<body>
+	<form>
+		用户名： <input type="text" name="username" placeholder="请输入用户名" autoforce autocomplete="on"> <br>   <!-- tocomplete(自动完成：on打开 off关闭 （1.必须成功提交 提交完才有记录2.必须要有name属性）placeholder 占位符) -->
+		邮　箱： <input type="email" name="email" multiple> <br>  <!-- multiple多选 -->
+		手机号：<input type="tel" name="tel" required pattern="^(\+86)?1\{d10}$" ><br>
+		<input type="submit" name="submit" id="sys"><br>
+		网址：<input type="url" list="ok">
+		<datalist id="ok">		<!-- type为url时网址必须加http://   list的值=id号-->
+			<option>http://www.baidu.com</option>
+			<option>http://www.qq.com</option>
+			<option>http://www.sina.com</option>
+		</datalist><br>
+	</form>
+		地　址：<input type="text" name="text" form="sys"> <!-- form指定id 指定id提交时会一起上传数据  -->
+</body>
+</html>

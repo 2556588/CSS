@@ -1,0 +1,291 @@
+body {
+	background-color: #fafafa;
+	
+
+	
+}
+* {
+	 margin: 0;
+	padding: 0;
+
+}
+   
+
+.to {
+	height: 100px;
+	background-color:#fff;
+}
+.banxin {
+	width: 1200px;
+	height: 100px;
+	background-color: white;
+	margin: 0 auto;
+	line-height: 80px;  /*居中*/
+
+}
+.left {
+
+	float: left;
+
+}
+.right {
+	float: right;
+}
+ul {
+	list-style: none;  /* 取消li的点*/
+	/*display: inline-block;*/ /*或给li加float
+	*/
+}
+.right li {
+	float: left;
+	margin: 0 20px;
+}
+.right li a {
+	text-decoration: none;
+	/*color: pink;*/
+}
+.right li a:hover {
+	color:#ccc;
+}
+.right a:hover {
+     color: skyblue;
+}
+.cao {
+	height: 620px;
+	background: url(../images/tupian.jpg) no-repeat top center;
+}
+.server {
+	width: 1055px;
+	height: 660px;	
+	margin: 75px auto 0;
+	/*background-color: pink;*/
+}
+.server1 {
+	border-top: 1px solid #ccc;
+
+	margin: 0 25px;
+
+
+}
+.server1 h3 {
+	width: 167px;
+	height: 58px;
+	margin: 0 auto ;
+	margin-top: -20px;
+	
+}
+.server1 p {
+	font-size: 12px;
+	color: #666;
+	line-height: 26px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.lib {
+	margin-top: 30px;
+}
+.lib li{
+	float: left;
+	list-style: none;	
+	height:510px;
+	width:320px;
+	background-color: #fff;
+	border:1px solid #e7e8e9;
+
+}
+.lib li img {
+	margin: 40px 35px;
+}
+.lib li h4 {
+	text-align: center;
+	font-weight: normal;
+	font-size:18px;
+	margin-bottom: 10px;
+
+}
+.lib li p {
+	width: 234px;
+	font-size: 16px;
+	color: #666;
+	margin: 0 auto;
+	line-height: 30px
+
+}
+.lib li a {
+	display: block;
+	margin: 0 auto;    /*水平对齐*/
+	width: 148px;
+	height:38px;
+	border:1px solid #ff9412;
+	border-radius: 5px;
+	margin-top: 30px;
+	color: #ff9412;
+	text-decoration: none;
+	font-size: 12px;
+	text-align: center;
+	line-height: 38px;    /*垂直对齐*/
+}
+.lib a:hover {
+	background-color: #ff9412;
+	color: #fff;
+}
+
+
+
+.lik {
+	margin: 0 30px;
+}
+.server3 {
+	width: 1055px;
+	float: left;
+	margin: 0 auto;
+	margin-top: 50px;
+	/*background-color: skyblue;*/
+}
+.s23 {
+	border-top:1px solid #ccc;
+	margin: 0 25px;
+}
+.s23 h3 {
+	width: 167px;
+	height: 58px;
+	margin: 0 auto ;
+	margin-top: -30px;
+}
+.fu {
+	width: 1055px;
+	margin: 40px auto 0;
+	position: relative;
+}
+.clearfix:after {content:"";display:block;height:0;clear:both;visibility:hidden;} 
+	.clearfix {*zoom:1}    	/*清除浮动*/
+.fu li {
+	width: 325px;
+	height: 210px;
+	background-color: pink;
+	float: left;
+	position: relative;
+
+
+}
+.middle {
+	margin: 0 40px;
+}
+.text {
+	height: 45px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.3);
+	text-align: center;
+	line-height: 45px;
+	color: #fff;
+}
+.fdj {
+	width: 100%;
+	height: 100px;
+	background:rgba(0,0,0,0.5) url(../images/images/fdj_03.gif) no-repeat center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.fu li:hover .fdj {
+	display: block;
+}
+.lef, .rig {
+	width: 60px;
+	height: 60px;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	text-align: center;
+	border-radius: 50%;
+	font-size: 25px;
+	text-decoration: none;
+	color: #fff;
+	line-height: 60px;
+
+}
+.lef {
+	left: -90px;
+
+
+}
+.rig {
+	right: -90px;
+
+	}
+.fu a:hover {
+	background:rgba(255,125,220,0.7);
+}
+.server4 {
+	width: 1055px;
+	float: left;
+	margin: 0 auto;
+	margin-top: 50px;
+	/*background-color: skyblue;*/
+}
+.s4 {
+	border-top:1px solid #ccc;
+	margin: 0 25px;
+}
+.s4 h3 {
+	width: 167px;
+	height: 58px;
+	margin: 0 auto ;
+	margin-top: -30px;
+}
+.medio {
+	width: 1055px;
+	margin-top: 40px;  
+}
+.medio li {
+	width: 233px;
+	height: 80px;
+	float: left;
+	border-right: 1px dashed #ccc;
+	border-bottom:1px dashed #ccc;
+	padding-top: 10px;
+	text-align: center;
+}
+.fer {
+	width: 100%;
+	height: 165px;
+	background-color: #212425;
+	margin-top: 50px;
+}
+
+
+.footer {
+	width: 100%;
+	background-color: #212425;
+	height: 165px;
+	/*margin-top:100px; */
+	overflow: hidden;
+}
+.isok {
+	text-align: center;
+	margin-top: 50px;
+	color: #f0f1f1;
+	font-size: 14px;
+
+}
+.isok a {
+	text-decoration: none;
+	color: #f0f1f1;
+	padding: 0 5px;
+	font-size: 14px;
+}
+.isok a:hover {
+	color: #2288f6;
+	text-decoration: underline;
+}
+.footer p {
+	text-align: center; 
+	color: #888888;
+	margin-top: 30px;
+}

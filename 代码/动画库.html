@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="animate.css">
+        <style>
+            div{
+                width:234px;
+                height: 196px;
+                margin:100px auto;
+            }
+             img {
+                animation:sys 1s infinite linear;
+            }
+            @keyframes sys{
+                0% {transform:scale(1)rotate(0)}
+                10%,20%,50% {transform:scale(1.1) rotate(1deg)}
+                30%,60%,80% {transform:scale(1.1) rotate(-1deg)}
+                40% ,100%{transform:scale(1) rotate(0)}
+            } 
+           
+             /* img {
+                    
+                    animation:sys 1s infinite linear;
+            }
+            @keyframes sys{
+                0%{transform:scale(1) rotate(0)}
+                40%{transform:scale(1.2) rotate(-1deg)}
+                70%{transform:scale(1.2) rotate(1deg)}
+
+                100%{transform:scale(1) rotate(0)}
+            }  */
+
+        </style>
+    </head>
+    <body>
+        <!-- <div><img src="images/bottom.jpg" class="animated tada infinite"></div> -->
+        <img src="images/bottom.jpg">
+    </body>
+</html>

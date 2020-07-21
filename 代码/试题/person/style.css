@@ -1,0 +1,53 @@
+.fl{
+    float: left;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+.zx-nav{
+    color: #333;
+}
+.zx-nav li{
+    width: 200px;
+    text-align: center;
+    position: relative;
+    background: lightblue;
+    float: left;
+    height: 100%;
+    
+}
+.zx-nav li::before {
+    content: "";
+  
+    position: absolute;
+  
+    top: 0;
+  
+    left: 100%;
+  
+    width: 0;
+  
+    height: 100%;
+  
+    border-bottom: 2px solid red;
+  
+    transition: 0.2s all linear;
+  
+  }
+  
+  
+  
+  .zx-nav li:hover::before {
+    width: 100%;
+    left: 0;
+  }
+  
+  
+  
+  .zx-nav li:hover ~ li::before {
+    left: 0;
+  }
+
+

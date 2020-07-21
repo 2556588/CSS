@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>动画效果</title>
+	<style type="text/css">
+		div {
+			width: 100px;
+			height: 100px;
+			background-color: pink;
+			position: absolute;
+			animation-name: sys;  /*动画名称*/
+			animation-duration: 2s;   /*效果时间*/
+			animation-direction: alternate; /*来回交替*/
+			animation-timing-function: linear; /*次数*/
+			animation-fill-mode: forwards;
+			animation-iteration-count: 4;  /*infinite无限次*/
+			animation-delay: 2s;
+			animation-play-state: running;
+		}
+		@keyframes sys {   /*创建动画*/
+			0% {
+				transform: translate(0,0);
+			}
+			50% {
+				transform: translate(666px,0);
+			}
+			100% {
+				transform: translate(999px,600px);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>

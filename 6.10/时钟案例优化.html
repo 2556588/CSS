@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	.big {
+		width: 500px;
+		height: 500px;
+		border:10px solid #ccc;
+		border-radius: 50%;
+		margin: 50px auto;
+		position: relative;
+
+	}
+	.line {
+		width: 10px;
+		height: 500px;
+		background-color: #ccc;
+		position: absolute;
+		left:50%;
+		top: 0;
+		transform: translate(-50%,0);
+	}
+	.line1 {
+		width: 15px;
+		transform: translate(-50%,0) rotate(0deg);
+	}		
+	.line2 {
+		transform: translate(-50%,0) rotate(30deg);
+	}
+	.line3 {
+		transform: translate(-50%,0) rotate(60deg);
+	}	
+	.line4 {
+		width: 15px;
+		transform: translate(-50%,0) rotate(90deg);
+	}		
+	.line5 {
+		transform: translate(-50%,0) rotate(120deg);
+	}	
+	.line6 {
+		transform: translate(-50%,0) rotate(150deg);
+	}
+	.cover,.small,.shi,.fen,.miao {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+	}
+	.shi,.fen,.miao {
+		transform: translate(-50%,-100%);
+		animation-name: sys;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+		transform-origin: bottom;		
+	}
+	.cover,.small {
+		transform:translate(-50%,-50%);
+		border-radius: 50%;
+	}
+	.cover {
+		width: 450px;
+		height: 450px;
+		background-color:#fff;
+	}
+	.small {
+		width: 30px;
+		height: 30px;
+		background-color: #ccc;
+	}
+	.shi {
+		width: 16px;
+		height: 130px;
+		background-color: #f10215;
+		animation-duration: 43200s;
+	}
+	.fen {
+		width: 10px;
+		height: 160px;
+		background-color: darkgreen;
+		animation-duration: 3600s;
+	}
+	.miao {
+		width: 5px;
+		height: 180px;
+		background-color: blue;
+		animation-duration: 60s;
+
+	}
+	@keyframes sys{
+		0% {
+			transform: translate(-50%,-100%) rotate(0deg);
+		}
+		100% {
+			transform: translate(-50%,-100%) rotate(360deg);
+		}
+	}
+
+
+	</style>
+</head>
+<body>
+	<div class="big">
+	<div class="line line1"></div>
+	<div class="line line2"></div>
+	<div class="line line3"></div>
+	<div class="line line4"></div>
+	<div class="line line5"></div>
+	<div class="line line6"></div>
+	<div class="cover"></div>
+	<div class="shi"></div>	
+	<div class="fen"></div>	
+	<div class="miao"></div>	
+	<div class="small"></div>	
+	</div>
+</body>
+</html>

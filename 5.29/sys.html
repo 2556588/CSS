@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style >
+		a {
+			width: 1260px;
+			height: 470px;
+			position: relative;
+			margin: 100px auto;
+			display: block;    /*a是行内元素 要把a转换为块级元素*/
+		}
+		.jingguo {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background:rgba(0,0,0,0.3) url(../images/zanting.gif) no-repeat center;
+			display: none;
+		}
+		a:hover .jingguo {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<a href="#"><img src="../images/bkground.jpg">
+		<div class="jingguo"></div>
+	</a>
+
+</body>
+</html>

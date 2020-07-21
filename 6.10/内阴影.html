@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		div {
+			width: 200px;
+			height: 400px;
+			display: inline-block;
+			background-color: #ccc;
+			margin: 20px;
+		}
+		div:nth-of-type(-n+4) { /*前四个*/
+			box-shadow:4px 4px 4px 4px red inset, -4px 4px 4px 4px red inset;  /*用逗号隔开   默认为外阴影*/
+		}
+		div:last-of-type {   /*最后一个*/
+			box-shadow:4px 4px 4px 4px pink, -4px 4px 4px 4px pink;
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+	<div></div>
+
+</body>
+</html>

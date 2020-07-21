@@ -1,0 +1,321 @@
+* {
+    padding:0;
+    margin:0;
+}
+.clearfix:after,.clearfix:before {
+    display: table;
+    content:"";
+}
+.clearfix:after {
+    clear:both;
+}
+ .wechat-placeholder{   
+    width:1140px;
+    line-height: 50px;
+    text-align: center;
+}
+.wechat-placeholder ul {
+    width:1140px;
+    height: 50px;
+    display:flex;
+    border-top:1px solid #dedede;
+}
+.wechat-placeholder ul li{
+    padding:0 40px!important;
+    text-transform:uppercase;
+    position: relative;
+}
+.wechat-placeholder ul li:before {
+    content:"";
+    position: absolute;
+    top:0;
+    left:100%;
+    width:0;
+    height: 100%;
+    border-bottom:2px solid #f10215;
+    transition:0.2s linear;
+    z-index:-1;
+}
+.wechat-placeholder ul li:hover:before {
+    width:100%;
+    top:0;
+    left:0;
+    transition-delay: 0.1s;
+}
+li:hover ~ li:before{
+    left:0;
+}
+
+.wechat-placeholder ul li:hover a {
+    color:#f10215;
+}
+
+
+.wechat-placeholder ul li a{
+    color:rgb(127,121,121);
+}
+.wechat-placeholder ul li:nth-child(1){
+    margin-left: 114px;
+}
+.wechat-num2{
+    width:1140px;
+    height: 470px;
+    /* background-color: #ccc; */
+    margin-left: 15px;
+}
+.wechat-num2-l-t img,.wechat-num2-r-t img {
+    border-radius:50%;
+    border:9px solid #fff;
+    margin-left: 175px;
+    margin-top:-104px;
+
+}
+.wechat-num2-l:hover img {
+    border-color:#ff6d6d;
+}
+.wechat-num2-r:hover img {
+    border-color:#ff6d6d;
+}
+
+.wechat-num2-l{
+    width:555px;
+    height: 368px;
+    background-color: #fff;
+    float:left;
+    border:1px solid #fff;
+    box-shadow: 0 100px 95px -100px rgb(90, 84, 84);
+    /* position: relative; */
+}
+.wechat-num2-r {
+    width:555px;
+    height: 368px;
+    background-color: #fff;
+    float:right;
+    box-shadow: 0 100px 95px -100px rgb(90, 84, 84);
+}
+.wechat-num2-l h3 ,.wechat-num2-r h3{
+    width:100%;
+    font-size:24px;
+    text-align: center;
+}
+.wechat-num2-l p,.wechat-num2-r p{
+    font-size:15px;
+    margin:0 20px;
+    text-align: center;
+}
+.sys {
+    width:555px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top:8px;
+    
+
+}
+
+.wechat-ico1,.wechat-ico2, .wechat-ico3,.wechat-ico4 {
+    font-family:FontAwesome;
+    width:40px;
+    height: 40px;
+    font-size: 25px;
+    padding:10px;
+}
+.sys a {
+    width:40px;
+    height: 40px;
+    margin: 0 8px;
+    color:#565855;
+}
+.sys a:hover {
+    border:1px solid #fb706b;
+    border-radius:50%;
+    color:#fb706b;
+}
+.wechat-num2-l-b{
+    width:125px;
+    height: 39px;
+    background-color: #ff6d6d;
+    margin:15px auto;
+   
+}
+.wechat-num2-l-b a{
+    color:white;
+    width:125px;
+    height: 39px;
+    line-height: 39px;
+}
+.wechat-num2-l-b:hover {
+    background-color: #333333;
+}
+.num3 {
+    width:1140px;
+    height: 1200px;
+    /* background-color: #ccc; */
+    position: relative;
+}
+.num-c-x {
+    font-family:FontAwesome;
+    width:60px;
+    height: 60px;
+    font-size: 40px;
+    position: absolute;
+    margin-left:-30px;
+    left:50%;
+    top:0;  
+    padding:9px;
+    padding-top:20px;
+    border:1px solid #ff6d6d;
+    border-radius:50%;
+    color:white;
+    background-color: #ff6d6d;
+    z-index: 100;
+}
+
+.num3-c-x {
+    width:2px;
+    height: 1100px;
+    position: absolute;
+    top:0;
+    left:50%;
+    background-color:#555555;
+}
+.x-2{
+    position: absolute;
+    top:230px;
+    left:50%;
+}
+.x-3{
+    position: absolute;
+    top:460px;
+    left:50%;
+}
+.x-4{
+    position: absolute;
+    top:690px;
+    left:50%;
+}
+.x-5{
+    position: absolute;
+    top:910px;
+    left:50%;
+}
+.box-content.box-6 {
+    width:100%;
+}
+.num4{
+    width:100%;
+    min-width:1200px;
+    max-width:1500px;
+    margin:0 auto;
+}
+.num4 ul{
+    position: relative;
+}
+.num4 ul li {
+    width:337px;
+    float:left;
+    position: relative;
+    
+}
+.num4 img {
+    /* width:337px; */
+}
+
+.num4 ul li:hover img{
+    width:100%;
+    height: 100%;
+    background: rgb(248, 124, 116,0.8);
+    z-index: 1000;
+}
+.num4-icon { 
+    font-family:FontAwesome;
+    font-size:40px;
+    position: absolute;
+    top: 110px;
+    left: 46%;
+    color:white;
+    font-style:normal;
+    display: none;
+} 
+
+.num4-b{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: rgba(248, 124, 116,0.5);
+     display:none; 
+    
+}
+.num4-p {
+    width: 100%;
+    position: relative;
+}
+.num4 ul li:hover .num4-b{
+    display: block;
+}
+.num4 ul li:hover .num4-icon{
+    display:block;
+} 
+.bottom {
+    line-height: 40px;
+    text-align: center;
+}
+.bottom-icon1,.bottom-icon2,.bottom-icon3{
+    font-family:FontAwesome;
+    width:40px;
+    height: 40px;
+    font-size: 25px;
+    color:white;
+    margin:0 8px;
+    padding:10px;
+}
+.bottom a{
+    width:40px;
+    height: 40px;
+    border:1px solid #303030;
+    border-radius:50%;
+    color:white!important;
+
+}
+.bottom a:hover{
+    background-color: #fc6b68;
+    border-color:#fc6b68;
+}
+.num-l-t {
+    width:400px;
+    height: 200px;
+    position: absolute;
+    top: -12px;
+    left:103px;
+    text-align: right;
+}
+.num-l-t h3{
+    font-size: 28px;
+}
+.num-l-t p {
+    font-size:16px;
+}
+.num-l-c {
+    position: absolute;
+    top:440px;
+    left:103px;
+}
+.num-l-b {
+    position: absolute;
+    top:898px;
+    left:103px;
+}
+.num-r-t {
+    position: absolute;
+    top:220px;
+    left:654px;
+    text-align: left;
+}
+.num-r-b {
+    position: sbsolute;
+    top:677px;
+    left:654px;
+    text-align: left;
+}

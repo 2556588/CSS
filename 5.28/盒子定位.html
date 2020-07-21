@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>盒子定位</title>
+	<style >
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.big {
+			width: 1260px;
+			height: 470px;
+			margin: 0 auto;
+			position: relative;
+			margin-top: 100px;
+		}
+		.small {
+			width: 960px;
+			height: 80px;
+			background-color: #ccc;
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			margin-left: -480px;
+		}
+		.small  li {
+			float: left;
+			list-style: none;
+			background-color: red;
+
+		}
+		.small li a {
+			width: 160px;
+			height: 80px;
+			text-align: center;
+			line-height: 80px;
+			display: block;
+			text-decoration: none;
+			color:skyblue;
+
+
+		}
+		a:hover {
+			background-color: black;
+			color: white;
+		}
+		
+		
+	</style>
+</head>
+<body>
+	<div class="big"><a href="#"><img src="../images/bkground.jpg"></a>
+		
+		<div class="small">
+			<ul>
+				<li><a href="#">快递查询</a></li>
+				<li><a href="#">快递查询</a></li>
+				<li><a href="#">快递查询</a></li>
+				<li><a href="#">快递查询</a></li>
+				<li><a href="#">快递查询</a></li>
+				<li><a href="#">快递查询</a></li>
+			</ul>
+		</div>
+			
+	</div>
+</body>
+</html>

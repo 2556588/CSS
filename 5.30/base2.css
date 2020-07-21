@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?kmuvwh');
+  src:  url('fonts/icomoon.eot?kmuvwh#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kmuvwh') format('truetype'),
+    url('fonts/icomoon.woff?kmuvwh') format('woff'),
+    url('fonts/icomoon.svg?kmuvwh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.style-red {
+	color: #f10215!important;
+}
+li {
+	list-style: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.w {
+	width: 1190px;
+	margin: auto;
+}
+.fr {
+	float: right;
+}
+.fl {
+	float: left;
+}
+.J_event {
+	height: 80px;   /*a有高可删*/
+	background-color: #000;
+	
+}
+.J_event a {
+	height: 80px;
+	display: block;
+	background: url(../images/jd/header.jpg) no-repeat;
+	position: relative;
+}
+.J_event a i{
+	width: 20px;
+	height: 20px;
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	right: 0;
+	top: 5px;
+	font-family: 'icomoon';
+	text-align: center;
+	line-height: 20px;
+	color: #fff;
+	font-style: normal;
+}
+.shortcut {
+	height: 30px;
+	background-color: #E3E4E5;
+	border-bottom: 1px solid #DDDDDD;
+	color: #9D9D9D;
+	font-size: 12px;
+	line-height: 30px;
+}
+.shortcut a {
+	color: #9D9D9D;
+	font-size: 12px;
+	text-decoration: none;
+}
+.shortcut .fr li {
+	float: left;
+}
+.pos {
+	font-family: 'icomoon'
+	color:;
+}

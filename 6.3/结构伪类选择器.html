@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>结构伪类选择器</title>
+	<style type="text/css">
+		/*ul li:first-child {
+			background-color: skyblue;
+		}*/
+		/*ul li:last-child {
+			background-color: skyblue;
+		}*/
+		ul li:nth-child(4) {    /*child里面的n几就会选出第几个*/
+			background-color: skyblue;
+		}
+		ul li:nth-child(even) {    /*偶数*/
+			background-color: skyblue;
+		}
+		ul li:nth-child(odd) {    /*奇数*/
+			background-color: skyblue;
+		}
+
+	</style>
+</head>
+<body>
+	<ul>
+		<li>这是一段文字</li>
+		<li>这是一段文字</li>
+		<li>这是一段文字</li>
+		<li>这是一段文字</li>
+		<li>这是一段文字</li>
+		<li>这是一段文字</li>
+		<li>这是一段文字</li>
+		<li>这是一段文字</li>
+	</ul>
+
+</body>
+</html>

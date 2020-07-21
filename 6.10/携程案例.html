@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>携程案例</title>
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+
+	}
+	/*.container {
+		width: 100%;
+		display: flex;
+	}*/
+	header {
+		width: 100%;
+		display: flex;
+
+	}	
+	header a {
+		flex:1;
+	}
+	header a img {
+		width: 100%; /*/flex:1;*/
+	}
+	main {
+		width: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	.left {
+		flex: 1;
+	}
+	.right {
+		flex: 2;
+		flex-wrap: wrap;
+	}
+	.items {
+		width: 100%;
+		height: 100px;
+		background-color: #54a754;
+		border-radius: 5px;
+		margin: 10px 0;
+		display: flex;
+	}
+	.right  a {
+		width: 50%;	
+		float: left;
+		color: #fff;
+		box-sizing: border-box;
+		text-align: center;
+		line-height: 50px;
+		text-decoration: none;
+		border-left: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+	}
+	.right  a:nth-last-of-type(-n+2) {
+		border-bottom: none;
+	}
+	.items:nth-of-type(2) {
+		background-color: #9d57a1;
+	}
+	.items:nth-of-type(3) {
+		background-color: #5f6fbe;
+	}
+	.tupian {
+		width: 100%;
+		display: flex;
+
+	}
+	.tupian a {
+		width: 100%;
+		float: left;
+		flex: 1
+
+	}
+	.tupain a img {
+		width: 50%;
+		float: left;
+
+	}
+	nav {
+		width: 100%;
+		height: 38px;
+		border-bottom: 1px solid #eee;
+		display: flex;
+	}
+	nav a {
+		flex: 1;
+		text-align: center;
+		height: 100%;
+		line-height: 38px;
+		text-decoration: none;
+		color: #7a7a7a;
+	}
+	.link {
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+	}
+
+	footer {
+		text-align: center;
+	}
+	a:hover {
+		color: #f10215;
+	}
+	</style>
+</head>
+<body>
+	<div class="contianer">
+	<header>
+		<a href="#">
+			<img src="../images/360/banner.jpg">
+		</a>
+	</header>
+	<main>
+		<section class="items">
+			<div class="left"></div>
+			<div class="right">
+				<a href="#">海外酒店</a>
+				<a href="#">团购</a>
+				<a href="#">特惠酒店</a>
+				<a href="#">客栈公寓</a>
+			</div>
+		</section>
+		<section class="items">
+			<div class="left"></div>
+			<div class="right">
+				<a href="#">海外酒店</a>
+				<a href="#">团购</a>
+				<a href="#">特惠酒店</a>
+				<a href="#">客栈公寓</a>
+			</div>
+		</section>
+		<section class="items">
+			<div class="left"></div>
+			<div class="right">
+				<a href="#">海外酒店</a>
+				<a href="#">团购</a>
+				<a href="#">特惠酒店</a>
+				<a href="#">客栈公寓</a>
+			</div>
+		</section>
+		<section class="items">
+			<div class="left"></div>
+			<div class="right">
+				<a href="#">海外酒店</a>
+				<a href="#">团购</a>
+				<a href="#">特惠酒店</a>
+				<a href="#">客栈公寓</a>
+			</div>
+		</section>
+		<section class="tupain">
+			<a href="#"><img src="../images/360/extra_1.png"></a>
+			<a href="#"><img src="../images/360/extra_2.png"></a>
+		</section>
+	</main>
+	<footer>
+		<nav>
+		<a href="#">电话预订</a>
+		<a href="#">下载客户端</a>
+		<a href="#">我的订单</a>
+		</nav>
+		<p class="link">
+			<a href="#">网站地图<span> | </span></a>
+			<a href="#">ENGLISH<span> | </span></a>
+			<a href="#">电脑版</a>
+		</p>
+		<p>&copy; 2015 携程旅行</p>
+	</footer>
+	</div>
+</body>
+</html>

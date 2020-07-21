@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19844b2e-64fd-45ae-acfb-306d03130714" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../5.23/盒子水平居中.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../5.23/盒子水平居中.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5.27/yundao2.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../5.27/yundao2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5.27/云道2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../5.27/云道2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5.28/盒子定位2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../5.28/盒子定位2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5.29/精灵图.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../5.29/精灵图.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5.30/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../../5.30/fonts/icomoon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5.30/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../../5.30/fonts/icomoon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5.30/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../../5.30/fonts/icomoon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5.30/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../../5.30/fonts/icomoon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5.30/字体图标使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../5.30/字体图标使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../images/6616_05.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../../images/6616_05.gif" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/js.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="137" />
+    <option name="y" value="94" />
+    <option name="width" value="1026" />
+    <option name="height" value="546" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../js" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19844b2e-64fd-45ae-acfb-306d03130714" name="Default Changelist" comment="" />
+      <created>1560474563539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560474563539</updated>
+      <workItem from="1560474565190" duration="768000" />
+      <workItem from="1560476610293" duration="60000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="828000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="137" y="94" width="1026" height="546" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
